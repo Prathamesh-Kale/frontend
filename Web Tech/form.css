@@ -1,0 +1,101 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    /* background-image: url(./images/564835.jpg);
+    background-size: cover; */
+
+}
+main
+{
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main form
+{
+    width: 30%;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 5%;
+}
+label,#user,#pass,a
+{
+    display: block;
+}
+label
+{
+    font-size: 30px;
+}
+#user,#pass
+{
+    width: 70%;
+    height:30px;
+    padding-left: 30px;
+    margin-bottom: 20px 10px;
+
+}
+main form #button
+{   display: flex;
+    justify-content: space-between;
+}
+div button
+{
+    width: 30%;
+    border: none;
+    border-radius: 5%;
+    margin: 20px 0px;
+    background-color: green;
+
+}
+#abc
+{
+    background-color: red;
+}
+a
+{
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    color: red;
+    font-size: large;
+    margin: 10px;
+}
+#user::placeholder
+{
+    color: blue;
+}
+#pass::placeholder
+{
+    color: orangered;
+}
+.fa-solid.fa-user
+{
+    color: palevioletred;
+    font-size: 50px;
+    
+}
+#cuser
+{
+    position: relative;
+}
+.fa-solid.fa-user-secret
+{
+    position: absolute;
+    top: 26%;
+    left: 2%;
+}
+#cpass
+{
+    position: relative;
+}
+.fa-solid.fa-key
+{
+    position: absolute;
+    top: 26%;
+    left: 2%;
+
+}

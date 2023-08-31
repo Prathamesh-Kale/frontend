@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    background-image: url(./images/564835.jpg);
+    background-size: cover;
+    font-family: 'Source Code Pro', monospace;
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+}
+footer section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: aliceblue;
+
+}
+footer section ul
+{
+    list-style-type: none;
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: 789;
+}
+a:hover
+{
+    color: blue;
+    text-decoration: underline;
+    
+}

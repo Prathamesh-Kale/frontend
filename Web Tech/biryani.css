@@ -1,0 +1,10 @@
+#a{
+    color: green;
+}
+.b{
+    color: blue;
+}
+body{
+    background-image: linear-gradient(orange,white,green,violet,red,brown);
+    height: 100dvh;
+}

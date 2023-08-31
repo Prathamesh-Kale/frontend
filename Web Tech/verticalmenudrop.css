@@ -1,0 +1,121 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/564835.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    background-color: rgba(87, 208, 142, 0.5);
+    width: 10%;
+    height: 100vh;
+}
+#a
+{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    display: block;
+    font-size: larger;
+    border-bottom: 3px solid red;
+    
+}
+a:hover
+{
+color: black;
+}
+
+/* #mobile_dropdown_options
+{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.635);
+    position: relative;
+    display: none;
+} */
+#mobile_dropdown_options
+{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(255, 0, 0, 0.635);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none; 
+}
+#mobile_dropdown
+{
+    position: relative;
+}
+#mobile_dropdown:hover #mobile_dropdown_options
+{
+    display: block;
+}
+#Apple
+{
+    position: relative;
+}
+#Apple_products
+{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(0, 110, 255, 0.635);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none; 
+}
+#Apple:hover #Apple_products
+{   position: absolute;
+    display: block;
+
+}
+#samsung
+{
+    position: relative;
+}
+#samsung_products
+{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(0, 110, 255, 0.635);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none; 
+}
+#samsung:hover #samsung_products
+{   
+    display: block;
+
+}
+#redmi
+{
+    position: relative;
+}
+#redmi_products
+{
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(0, 110, 255, 0.635);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 200%;
+    display: none; 
+}
+#redmi:hover #redmi_products
+{   
+    display: block;
+
+}

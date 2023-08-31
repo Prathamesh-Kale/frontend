@@ -1,0 +1,90 @@
+/* img
+{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
+} */
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/564835.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: lemonchiffon
+}
+#navbar
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+a:hover
+{
+    background-color: rebeccapurple;
+}
+#menu
+{   padding: 2px;
+    list-style-type: none;
+    position: absolute;
+    background-color: lemonchiffon;
+    display:none;
+}
+#drop
+{   padding: 0px;
+    list-style-type: none;
+    position: relative;
+    background-color: lemonchiffon;
+    
+}
+#drop:hover #menu
+{padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    background-color: lemonchiffon;
+    display: block;
+
+}
+#vdrop
+{
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+    background-color: lemonchiffon;
+    display:none;
+}
+#nvdrop
+{
+    padding: 0px;
+    list-style-type: none;
+    position: relative;
+    background-color: lemonchiffon;
+    display:none;
+}
+#vdrop:hover #veg
+{
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    background-color: lemonchiffon;
+    display: block;
+}
+#nvdrop:hover #nonveg
+{
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    background-color: lemonchiffon;
+    display: block;
+}

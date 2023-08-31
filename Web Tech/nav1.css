@@ -1,0 +1,42 @@
+#nav
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    padding: 10px 10px;
+}
+#left{
+    display: flex;
+    
+}
+#right{
+    display: flex;
+
+
+}
+#centre{
+    display: flex;
+
+}
+#login
+{
+    display: flex;
+}
+body{
+    background-image: url(./images/rajni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+a{
+    color: rgb(20, 76, 218);
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px;
+    display: flex;
+}
+a:hover{
+    color: yellow;
+    background-color: indigo;
+
+}

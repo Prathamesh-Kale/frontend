@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(cyan,white,lightgreen);
+    margin-left: 160px;
+    margin-right: 160px;
+}
+#res:hover{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 40px;
+    outline-style: double;
+   
+    
+    color: red;
+    text-shadow: 0px 1px 0px yellow, 1px 2px 3px black;
+    transition: 5s;
+}
+h1{
+    text-align: center;
+    
+}
+table{
+    
+    
+    
+    border-collapse: collapse;
+    width: 400px;
+    height: 100px;
+    
+    
+}
+th{
+    border: 3px solid black;
+    
+}
+td{
+    text-align: center;
+    border: 3px solid  black;
+    color: darkgreen;
+ 
+}
+#i1{
+    height: 500px;
+    width: 500px;    
+}
+#i2{
+    height: 500px;
+    width: 500px;
+}
+#i3{
+
+    height: 500px;
+    width: 1000px;
+}
+img{
+    width: 150px;
+    border: inset 5px grey;
+}
+ul{
+    list-style-type: square;
+    color: navy;
+}

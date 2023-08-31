@@ -1,0 +1,21 @@
+.Selected
+{
+    color: green;
+}
+.Not_Selected
+{
+    color: red;
+}
+th
+{
+    color: chocolate;
+}
+*
+{
+    color: purple;
+}
+table,td
+{   border: 3px solid black;
+    border-collapse: collapse;
+    border-color: black;
+}

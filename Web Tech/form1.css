@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+
+    background-color: rgb(46, 174, 80);
+    /* background-image: linear-gradient(gray,black,black,gray); */
+  
+}
+
+main{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 100vh;
+    margin: 40px 0px;
+}
+
+main form{
+    width: 30%;
+    background-color: rgb(123, 98, 192);
+    padding: 20px;
+   
+    border-radius: 10px;
+  
+    
+}
+
+
+label,#user,#pass{
+    display: block;
+}
+
+label{
+    padding-top: 20px;
+  
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user,#pass{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+  
+    margin: 20px 10px;
+   
+    color: black;
+    
+    font-size: 15px;
+    
+    
+}
+
+main form div{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    height: 60px;
+    
+    border-radius: 5px;
+    margin: 20px 0px;
+    background-color: rgb(161, 154, 116);
+    box-shadow: 2px 5px 0px rgb(87, 85, 85);
+   
+}
+
+button:hover{
+    background-color: rgb(97, 93, 73);
+    color: black;
+}
+form a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkturquoise;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#user::placeholder{
+    color: gainsboro;
+    text-align: center;
+}
+
+#pass::placeholder{
+    color: gainsboro;
+    text-align: center;
+}
+
+/* i{
+    
+    font-size: 80px;
+
+} */
+
+
+
+.fa-regular.fa-face-laugh-beam{
+    color: gold;
+    font-size: 70px;
+    display: flex;
+}
+
+section h3,h1,h2,i{
+    display: flex;
+    justify-content: center;  
+
+}
+
+h3{
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(56, 65, 84);
+}
+
+h2{
+    font-size: 18px;
+}

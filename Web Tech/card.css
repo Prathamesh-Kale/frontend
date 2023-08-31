@@ -1,0 +1,49 @@
+body
+{margin: 0px;
+    padding: 0px;
+    background-image: url(./images/564835.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#cards
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+#container
+{   width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#container div
+{
+    width: 25%;
+    background-color: rgba(128, 255, 0, 0.42);
+    border-radius: 5px;
+
+}
+#container div img
+{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#container div h1
+{
+    text-align: center;
+
+}
+#container div p
+{
+    text-align: center;
+}
+#container div img:hover
+{
+   
+    opacity: 1;
+    scale: 1.2;
+    transition: 2s;
+}
